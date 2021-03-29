@@ -122,7 +122,7 @@ if __name__ == "__main__":
         for pcap_key in pcap_name_list:
             pcap_name=config.get('source',str(pcap_key))
             log = open('.//log//'+pcap_name+'.log','w')
-            tms_list, pkt_list = pcap_read(pcap_name)
+            tms_list, pkt_list = pcap_read('.//pcap//'+pcap_name)
             flow = flow_combine(pkt_list, tms_list, 2)
             printFlow(flow,log)
             log.close()

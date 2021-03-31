@@ -15,7 +15,7 @@ def get_IP_packet(pkt):
     """
     此处可输出mac地址，输出需要转化格式 例如：22:53:49:24:ae:9a
     """
-    if(eth.type==dpkt.ethernet.ETH_TYPE_IP6):
+    if (eth.type == dpkt.ethernet.ETH_TYPE_IP6):
         if not isinstance(eth.data, dpkt.ip6.IP6):
             print('Non IP Packet type not supported %s\n' % eth.data.__class__.__name__)
     else:
@@ -105,30 +105,61 @@ def flow_combine(ip_pkt_list, ip_tms_list, flow_definition):
     return flow_list
 
 
-def printFlow(flow_list,f):
-    print('Number of flows: ' + str(len(flow_list)),file=f)
+def print_flow(flow_list, f):
+    print('Number of flows: ' + str(len(flow_list)), file=f)
     for flowUnit in flow_list:
-        print(flowUnit,file=f)
+        print(flowUnit, file=f)
+
+
+def check():
+    if len(sys.argv) == 2:
+        if sys.argv[1] == '-h':
+            doc()
+            mod = 0
+        elif sys.argv[1] == '-u':
+            mod = 1
+        elif sys.argv[1] == '-b':
+            mod = 2
+        else:
+            print("Use \'-h\' for more help")
+            mod = 0
+        return mod
+
+
+def doc():
+    str_doc = """
+    The program is coded in python 3.8.3 with dpkt.
+    To execute the program,use the following command:
+    python Flow_Aggregation_test.py [-h] OPTION
+    OPTION:
+        -u unidirectional flow aggregation
+        -b bidirectional flow aggregation
+    """
 
 
 if __name__ == "__main__":
+    mod = check()
+    if mod != 1 and mod != 2:
+        sys.exit(0)
 
     time_start = time.time()
     config = configparser.ConfigParser()  # 创建一个对象，使用对象的方法对指定的配置文件做增删改查操作。
     config.read('./edconfig.ini', encoding='utf-8')
     pcap_name_list = config.options('source')
-    print(config)
+
+    if mod == 1:
+        folder = 'uni_log'
+    else:
+        folder = 'bi_log'
     try:
         for pcap_key in pcap_name_list:
-            pcap_name=config.get('source',str(pcap_key))
-            log = open('.//log//'+pcap_name+'.log','w')
-            tms_list, pkt_list = pcap_read('.//pcap//'+pcap_name)
-            flow = flow_combine(pkt_list, tms_list, 2)
-            printFlow(flow,log)
+            pcap_name = config.get('source', str(pcap_key))
+            log = open('.//' + folder + '//' + pcap_name + '.log', 'w')
+            tms_list, pkt_list = pcap_read('.//pcap//' + pcap_name)
+            flow = flow_combine(pkt_list, tms_list, mod)
+            print_flow(flow, log)
             log.close()
-            """
-            此处调用函数，实现功能
-            """
+
     except Exception as e:
         print('[INFO]配置文件错误:{}'.format(e))
         sys.exit(0)

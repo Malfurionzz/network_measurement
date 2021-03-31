@@ -1,0 +1,621 @@
+Number of flows: 62
+Flow:
+src_mac: fc:db:b3:e9:37:96
+dst_mac: 22:53:49:24:ae:9a
+src_ip:192.168.137.227
+dst_ip: 31.13.82.36
+src_port: 36291
+dst_port: 443
+packet_number:664
+flow length: 50547
+
+Flow:
+src_mac: 22:53:49:24:ae:9a
+dst_mac: fc:db:b3:e9:37:96
+src_ip:31.13.82.36
+dst_ip: 192.168.137.227
+src_port: 443
+dst_port: 36291
+packet_number:989
+flow length: 1433619
+
+Flow:
+src_mac: fc:db:b3:e9:37:96
+dst_mac: 22:53:49:24:ae:9a
+src_ip:192.168.137.227
+dst_ip: 31.13.68.16
+src_port: 36388
+dst_port: 443
+packet_number:67
+flow length: 6702
+
+Flow:
+src_mac: 22:53:49:24:ae:9a
+dst_mac: fc:db:b3:e9:37:96
+src_ip:31.13.68.16
+dst_ip: 192.168.137.227
+src_port: 443
+dst_port: 43030
+packet_number:750
+flow length: 1000981
+
+Flow:
+src_mac: fc:db:b3:e9:37:96
+dst_mac: 22:53:49:24:ae:9a
+src_ip:192.168.137.227
+dst_ip: 31.13.68.16
+src_port: 43030
+dst_port: 443
+packet_number:480
+flow length: 45574
+
+Flow:
+src_mac: 22:53:49:24:ae:9a
+dst_mac: fc:db:b3:e9:37:96
+src_ip:31.13.68.16
+dst_ip: 192.168.137.227
+src_port: 443
+dst_port: 36388
+packet_number:89
+flow length: 100418
+
+Flow:
+src_mac: fc:db:b3:e9:37:96
+dst_mac: 22:53:49:24:ae:9a
+src_ip:192.168.137.227
+dst_ip: 31.13.82.1
+src_port: 49685
+dst_port: 443
+packet_number:87
+flow length: 30139
+
+Flow:
+src_mac: fc:db:b3:e9:37:96
+dst_mac: 22:53:49:24:ae:9a
+src_ip:192.168.137.227
+dst_ip: 31.13.68.16
+src_port: 43039
+dst_port: 443
+packet_number:69
+flow length: 5127
+
+Flow:
+src_mac: 22:53:49:24:ae:9a
+dst_mac: fc:db:b3:e9:37:96
+src_ip:31.13.82.1
+dst_ip: 192.168.137.227
+src_port: 443
+dst_port: 49685
+packet_number:104
+flow length: 77886
+
+Flow:
+src_mac: 22:53:49:24:ae:9a
+dst_mac: fc:db:b3:e9:37:96
+src_ip:31.13.68.16
+dst_ip: 192.168.137.227
+src_port: 443
+dst_port: 43039
+packet_number:75
+flow length: 86777
+
+Flow:
+src_mac: fc:db:b3:e9:37:96
+dst_mac: 22:53:49:24:ae:9a
+src_ip:192.168.137.227
+dst_ip: 31.13.68.16
+src_port: 43029
+dst_port: 443
+packet_number:20
+flow length: 1854
+
+Flow:
+src_mac: 22:53:49:24:ae:9a
+dst_mac: fc:db:b3:e9:37:96
+src_ip:31.13.82.34
+dst_ip: 192.168.137.227
+src_port: 443
+dst_port: 53351
+packet_number:72
+flow length: 5059
+
+Flow:
+src_mac: fc:db:b3:e9:37:96
+dst_mac: 22:53:49:24:ae:9a
+src_ip:192.168.137.227
+dst_ip: 31.13.82.34
+src_port: 53351
+dst_port: 443
+packet_number:72
+flow length: 8306
+
+Flow:
+src_mac: 22:53:49:24:ae:9a
+dst_mac: fc:db:b3:e9:37:96
+src_ip:31.13.68.16
+dst_ip: 192.168.137.227
+src_port: 443
+dst_port: 43029
+packet_number:21
+flow length: 8358
+
+Flow:
+src_mac: fc:db:b3:e9:37:96
+dst_mac: 22:53:49:24:ae:9a
+src_ip:192.168.137.227
+dst_ip: 192.168.137.1
+src_port: 63282
+dst_port: 53
+packet_number:2
+flow length: 170
+
+Flow:
+src_mac: 22:53:49:24:ae:9a
+dst_mac: fc:db:b3:e9:37:96
+src_ip:192.168.137.1
+dst_ip: 192.168.137.227
+src_port: 53
+dst_port: 63282
+packet_number:2
+flow length: 202
+
+Flow:
+src_mac: fc:db:b3:e9:37:96
+dst_mac: 22:53:49:24:ae:9a
+src_ip:192.168.137.227
+dst_ip: 31.13.68.13
+src_port: 50262
+dst_port: 443
+packet_number:3213
+flow length: 284791
+
+Flow:
+src_mac: fc:db:b3:e9:37:96
+dst_mac: 22:53:49:24:ae:9a
+src_ip:192.168.137.227
+dst_ip: 31.13.68.13
+src_port: 40723
+dst_port: 443
+packet_number:2313
+flow length: 223083
+
+Flow:
+src_mac: 22:53:49:24:ae:9a
+dst_mac: fc:db:b3:e9:37:96
+src_ip:31.13.68.13
+dst_ip: 192.168.137.227
+src_port: 443
+dst_port: 50262
+packet_number:5439
+flow length: 6936373
+
+Flow:
+src_mac: 22:53:49:24:ae:9a
+dst_mac: fc:db:b3:e9:37:96
+src_ip:31.13.68.13
+dst_ip: 192.168.137.227
+src_port: 443
+dst_port: 40723
+packet_number:3331
+flow length: 4220230
+
+Flow:
+src_mac: fc:db:b3:e9:37:96
+dst_mac: 01:00:5e:00:00:fb
+src_ip:192.168.137.227
+dst_ip: 224.0.0.251
+src_port: 5353
+dst_port: 5353
+packet_number:13
+flow length: 1547
+
+Flow:
+src_mac: fc:db:b3:e9:37:96
+dst_mac: 22:53:49:24:ae:9a
+src_ip:192.168.137.227
+dst_ip: 192.168.137.1
+src_port: 48194
+dst_port: 53
+packet_number:2
+flow length: 162
+
+Flow:
+src_mac: 22:53:49:24:ae:9a
+dst_mac: fc:db:b3:e9:37:96
+src_ip:192.168.137.1
+dst_ip: 192.168.137.227
+src_port: 53
+dst_port: 48194
+packet_number:2
+flow length: 240
+
+Flow:
+src_mac: fc:db:b3:e9:37:96
+dst_mac: 22:53:49:24:ae:9a
+src_ip:192.168.137.227
+dst_ip: 31.13.68.16
+src_port: 43042
+dst_port: 443
+packet_number:713
+flow length: 52613
+
+Flow:
+src_mac: 22:53:49:24:ae:9a
+dst_mac: fc:db:b3:e9:37:96
+src_ip:31.13.68.16
+dst_ip: 192.168.137.227
+src_port: 443
+dst_port: 43042
+packet_number:1075
+flow length: 1566588
+
+Flow:
+src_mac: fc:db:b3:e9:37:96
+dst_mac: 22:53:49:24:ae:9a
+src_ip:192.168.137.227
+dst_ip: 31.13.68.16
+src_port: 43034
+dst_port: 443
+packet_number:63
+flow length: 4931
+
+Flow:
+src_mac: 22:53:49:24:ae:9a
+dst_mac: fc:db:b3:e9:37:96
+src_ip:31.13.68.16
+dst_ip: 192.168.137.227
+src_port: 443
+dst_port: 43034
+packet_number:78
+flow length: 100412
+
+Flow:
+src_mac: fc:db:b3:e9:37:96
+dst_mac: 22:53:49:24:ae:9a
+src_ip:192.168.137.227
+dst_ip: 192.168.137.1
+src_port: 42355
+dst_port: 53
+packet_number:2
+flow length: 178
+
+Flow:
+src_mac: 22:53:49:24:ae:9a
+dst_mac: fc:db:b3:e9:37:96
+src_ip:192.168.137.1
+dst_ip: 192.168.137.227
+src_port: 53
+dst_port: 42355
+packet_number:2
+flow length: 312
+
+Flow:
+src_mac: fc:db:b3:e9:37:96
+dst_mac: 22:53:49:24:ae:9a
+src_ip:192.168.137.227
+dst_ip: 192.168.137.1
+src_port: 61764
+dst_port: 53
+packet_number:2
+flow length: 200
+
+Flow:
+src_mac: 22:53:49:24:ae:9a
+dst_mac: fc:db:b3:e9:37:96
+src_ip:192.168.137.1
+dst_ip: 192.168.137.227
+src_port: 53
+dst_port: 61764
+packet_number:2
+flow length: 200
+
+Flow:
+src_mac: 22:53:49:24:ae:9a
+dst_mac: 33:33:00:01:00:02
+src_ip:fe80::6887:ef8:5ff2:e052
+dst_ip: ff02::1:2
+src_port: 546
+dst_port: 547
+packet_number:2
+flow length: 314
+
+Flow:
+src_mac: fc:db:b3:e9:37:96
+dst_mac: 22:53:49:24:ae:9a
+src_ip:192.168.137.227
+dst_ip: 121.51.131.223
+src_port: 36857
+dst_port: 8081
+packet_number:6
+flow length: 1461
+
+Flow:
+src_mac: 22:53:49:24:ae:9a
+dst_mac: fc:db:b3:e9:37:96
+src_ip:121.51.131.223
+dst_ip: 192.168.137.227
+src_port: 8081
+dst_port: 36857
+packet_number:6
+flow length: 556
+
+Flow:
+src_mac: 22:53:49:24:ae:9a
+dst_mac: fc:db:b3:e9:37:96
+src_ip:31.13.82.1
+dst_ip: 192.168.137.227
+src_port: 443
+dst_port: 49686
+packet_number:4
+flow length: 406
+
+Flow:
+src_mac: fc:db:b3:e9:37:96
+dst_mac: 22:53:49:24:ae:9a
+src_ip:192.168.137.227
+dst_ip: 31.13.82.1
+src_port: 49686
+dst_port: 443
+packet_number:5
+flow length: 361
+
+Flow:
+src_mac: 22:53:49:24:ae:9a
+dst_mac: fc:db:b3:e9:37:96
+src_ip:31.13.82.36
+dst_ip: 192.168.137.227
+src_port: 443
+dst_port: 36282
+packet_number:3
+flow length: 352
+
+Flow:
+src_mac: fc:db:b3:e9:37:96
+dst_mac: 22:53:49:24:ae:9a
+src_ip:192.168.137.227
+dst_ip: 31.13.82.36
+src_port: 36282
+dst_port: 443
+packet_number:3
+flow length: 198
+
+Flow:
+src_mac: 22:53:49:24:ae:9a
+dst_mac: fc:db:b3:e9:37:96
+src_ip:31.13.68.16
+dst_ip: 192.168.137.227
+src_port: 443
+dst_port: 43031
+packet_number:3
+flow length: 352
+
+Flow:
+src_mac: fc:db:b3:e9:37:96
+dst_mac: 22:53:49:24:ae:9a
+src_ip:192.168.137.227
+dst_ip: 31.13.68.16
+src_port: 43031
+dst_port: 443
+packet_number:3
+flow length: 198
+
+Flow:
+src_mac: 22:53:49:24:ae:9a
+dst_mac: fc:db:b3:e9:37:96
+src_ip:31.13.82.36
+dst_ip: 192.168.137.227
+src_port: 443
+dst_port: 36280
+packet_number:7
+flow length: 568
+
+Flow:
+src_mac: fc:db:b3:e9:37:96
+dst_mac: 22:53:49:24:ae:9a
+src_ip:192.168.137.227
+dst_ip: 31.13.82.36
+src_port: 36280
+dst_port: 443
+packet_number:6
+flow length: 473
+
+Flow:
+src_mac: 22:53:49:24:ae:9a
+dst_mac: fc:db:b3:e9:37:96
+src_ip:31.13.82.36
+dst_ip: 192.168.137.227
+src_port: 443
+dst_port: 36287
+packet_number:8
+flow length: 622
+
+Flow:
+src_mac: fc:db:b3:e9:37:96
+dst_mac: 22:53:49:24:ae:9a
+src_ip:192.168.137.227
+dst_ip: 31.13.82.36
+src_port: 36287
+dst_port: 443
+packet_number:7
+flow length: 539
+
+Flow:
+src_mac: 22:53:49:24:ae:9a
+dst_mac: fc:db:b3:e9:37:96
+src_ip:31.13.82.36
+dst_ip: 192.168.137.227
+src_port: 443
+dst_port: 36290
+packet_number:6
+flow length: 514
+
+Flow:
+src_mac: fc:db:b3:e9:37:96
+dst_mac: 22:53:49:24:ae:9a
+src_ip:192.168.137.227
+dst_ip: 31.13.82.36
+src_port: 36290
+dst_port: 443
+packet_number:5
+flow length: 407
+
+Flow:
+src_mac: 22:53:49:24:ae:9a
+dst_mac: fc:db:b3:e9:37:96
+src_ip:31.13.68.16
+dst_ip: 192.168.137.227
+src_port: 443
+dst_port: 43040
+packet_number:3
+flow length: 352
+
+Flow:
+src_mac: 22:53:49:24:ae:9a
+dst_mac: fc:db:b3:e9:37:96
+src_ip:31.13.82.1
+dst_ip: 192.168.137.227
+src_port: 443
+dst_port: 49699
+packet_number:6
+flow length: 514
+
+Flow:
+src_mac: fc:db:b3:e9:37:96
+dst_mac: 22:53:49:24:ae:9a
+src_ip:192.168.137.227
+dst_ip: 31.13.68.16
+src_port: 43040
+dst_port: 443
+packet_number:3
+flow length: 198
+
+Flow:
+src_mac: fc:db:b3:e9:37:96
+dst_mac: 22:53:49:24:ae:9a
+src_ip:192.168.137.227
+dst_ip: 31.13.82.1
+src_port: 49699
+dst_port: 443
+packet_number:5
+flow length: 407
+
+Flow:
+src_mac: fc:db:b3:e9:37:96
+dst_mac: 22:53:49:24:ae:9a
+src_ip:192.168.137.227
+dst_ip: 192.168.137.1
+src_port: 52555
+dst_port: 53
+packet_number:2
+flow length: 170
+
+Flow:
+src_mac: fc:db:b3:e9:37:96
+dst_mac: 22:53:49:24:ae:9a
+src_ip:192.168.137.227
+dst_ip: 192.168.137.1
+src_port: 35697
+dst_port: 53
+packet_number:2
+flow length: 170
+
+Flow:
+src_mac: 22:53:49:24:ae:9a
+dst_mac: fc:db:b3:e9:37:96
+src_ip:192.168.137.1
+dst_ip: 192.168.137.227
+src_port: 53
+dst_port: 52555
+packet_number:2
+flow length: 202
+
+Flow:
+src_mac: 22:53:49:24:ae:9a
+dst_mac: fc:db:b3:e9:37:96
+src_ip:192.168.137.1
+dst_ip: 192.168.137.227
+src_port: 53
+dst_port: 35697
+packet_number:2
+flow length: 202
+
+Flow:
+src_mac: 22:53:49:24:ae:9a
+dst_mac: 01:00:5e:7f:ff:fa
+src_ip:192.168.137.1
+dst_ip: 239.255.255.250
+src_port: 49362
+dst_port: 1900
+packet_number:5
+flow length: 1075
+
+Flow:
+src_mac: 22:53:49:24:ae:9a
+dst_mac: fc:db:b3:e9:37:96
+src_ip:172.217.24.142
+dst_ip: 192.168.137.227
+src_port: 443
+dst_port: 44905
+packet_number:2
+flow length: 132
+
+Flow:
+src_mac: fc:db:b3:e9:37:96
+dst_mac: 22:53:49:24:ae:9a
+src_ip:192.168.137.227
+dst_ip: 172.217.24.142
+src_port: 44905
+dst_port: 443
+packet_number:2
+flow length: 132
+
+Flow:
+src_mac: fc:db:b3:e9:37:96
+dst_mac: 22:53:49:24:ae:9a
+src_ip:192.168.137.227
+dst_ip: 192.168.137.1
+src_port: 58264
+dst_port: 53
+packet_number:2
+flow length: 178
+
+Flow:
+src_mac: 22:53:49:24:ae:9a
+dst_mac: fc:db:b3:e9:37:96
+src_ip:192.168.137.1
+dst_ip: 192.168.137.227
+src_port: 53
+dst_port: 58264
+packet_number:2
+flow length: 312
+
+Flow:
+src_mac: 22:53:49:24:ae:9a
+dst_mac: fc:db:b3:e9:37:96
+src_ip:203.119.218.243
+dst_ip: 192.168.137.227
+src_port: 80
+dst_port: 51510
+packet_number:3
+flow length: 242
+
+Flow:
+src_mac: fc:db:b3:e9:37:96
+dst_mac: 22:53:49:24:ae:9a
+src_ip:192.168.137.227
+dst_ip: 203.119.218.243
+src_port: 51510
+dst_port: 80
+packet_number:3
+flow length: 202
+
+Flow:
+src_mac: 22:53:49:24:ae:9a
+dst_mac: 01:00:5e:7f:ff:fa
+src_ip:192.168.137.1
+dst_ip: 239.255.255.250
+src_port: 55547
+dst_port: 1900
+packet_number:5
+flow length: 1075
+

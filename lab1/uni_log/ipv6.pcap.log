@@ -1,0 +1,831 @@
+Number of flows: 83
+Flow:
+src_mac: 00:00:5e:00:01:01
+dst_mac: 74:70:fd:c4:8a:c9
+src_ip:2606:2800:147:120f:30c:1ba0:fc6:265a
+dst_ip: 2001:da8:1002:a001::6:fb1c
+src_port: 443
+dst_port: 14900
+packet_number:11
+flow length: 13151
+
+Flow:
+src_mac: 74:70:fd:c4:8a:c9
+dst_mac: 00:00:5e:00:01:01
+src_ip:2001:da8:1002:a001::6:fb1c
+dst_ip: 2606:2800:147:120f:30c:1ba0:fc6:265a
+src_port: 14900
+dst_port: 443
+packet_number:11
+flow length: 886
+
+Flow:
+src_mac: 00:00:5e:00:01:01
+dst_mac: 74:70:fd:c4:8a:c9
+src_ip:120.204.17.124
+dst_ip: 10.208.67.228
+src_port: 8000
+dst_port: 4006
+packet_number:9
+flow length: 1121
+
+Flow:
+src_mac: 74:70:fd:c4:8a:c9
+dst_mac: 00:00:5e:00:01:01
+src_ip:10.208.67.228
+dst_ip: 202.119.23.198
+src_port: 57531
+dst_port: 443
+packet_number:158
+flow length: 25708
+
+Flow:
+src_mac: 74:70:fd:c4:8a:c9
+dst_mac: 00:00:5e:00:01:01
+src_ip:2001:da8:1002:a001::6:fb1c
+dst_ip: 2603:1046:c02:1820::2
+src_port: 6716
+dst_port: 443
+packet_number:4
+flow length: 296
+
+Flow:
+src_mac: 00:00:5e:00:01:01
+dst_mac: 74:70:fd:c4:8a:c9
+src_ip:202.89.233.100
+dst_ip: 10.208.67.228
+src_port: 443
+dst_port: 4099
+packet_number:2
+flow length: 108
+
+Flow:
+src_mac: 74:70:fd:c4:8a:c9
+dst_mac: 00:00:5e:00:01:01
+src_ip:10.208.67.228
+dst_ip: 74.125.203.95
+src_port: 13030
+dst_port: 443
+packet_number:2
+flow length: 132
+
+Flow:
+src_mac: 74:70:fd:c4:8a:c9
+dst_mac: 00:00:5e:00:01:01
+src_ip:10.208.67.228
+dst_ip: 120.204.17.124
+src_port: 4006
+dst_port: 8000
+packet_number:8
+flow length: 1416
+
+Flow:
+src_mac: 74:70:fd:c4:8a:c9
+dst_mac: 00:00:5e:00:01:01
+src_ip:10.208.67.228
+dst_ip: 74.125.203.95
+src_port: 14892
+dst_port: 443
+packet_number:2
+flow length: 132
+
+Flow:
+src_mac: 74:70:fd:c4:8a:c9
+dst_mac: 00:00:5e:00:01:01
+src_ip:2001:da8:1002:a001::6:fb1c
+dst_ip: 240e:e9:a804:2:20::
+src_port: 4079
+dst_port: 443
+packet_number:2
+flow length: 148
+
+Flow:
+src_mac: 00:00:5e:00:01:01
+dst_mac: 74:70:fd:c4:8a:c9
+src_ip:240e:e9:a804:2:20::
+dst_ip: 2001:da8:1002:a001::6:fb1c
+src_port: 443
+dst_port: 4079
+packet_number:2
+flow length: 148
+
+Flow:
+src_mac: 74:70:fd:c4:8a:c9
+dst_mac: 00:00:5e:00:01:01
+src_ip:10.208.67.228
+dst_ip: 202.119.23.198
+src_port: 7224
+dst_port: 9999
+packet_number:5
+flow length: 477
+
+Flow:
+src_mac: 00:00:5e:00:01:01
+dst_mac: 74:70:fd:c4:8a:c9
+src_ip:202.119.23.198
+dst_ip: 10.208.67.228
+src_port: 9999
+dst_port: 7224
+packet_number:3
+flow length: 369
+
+Flow:
+src_mac: 00:00:5e:00:01:01
+dst_mac: 74:70:fd:c4:8a:c9
+src_ip:59.83.218.231
+dst_ip: 10.208.67.228
+src_port: 443
+dst_port: 12968
+packet_number:3
+flow length: 224
+
+Flow:
+src_mac: 74:70:fd:c4:8a:c9
+dst_mac: 00:00:5e:00:01:01
+src_ip:10.208.67.228
+dst_ip: 59.83.218.231
+src_port: 12968
+dst_port: 443
+packet_number:4
+flow length: 216
+
+Flow:
+src_mac: 00:00:5e:00:01:01
+dst_mac: 74:70:fd:c4:8a:c9
+src_ip:59.83.218.231
+dst_ip: 10.208.67.228
+src_port: 443
+dst_port: 12969
+packet_number:3
+flow length: 224
+
+Flow:
+src_mac: 74:70:fd:c4:8a:c9
+dst_mac: 00:00:5e:00:01:01
+src_ip:10.208.67.228
+dst_ip: 59.83.218.231
+src_port: 12969
+dst_port: 443
+packet_number:4
+flow length: 216
+
+Flow:
+src_mac: 00:00:5e:00:01:01
+dst_mac: 74:70:fd:c4:8a:c9
+src_ip:59.83.218.231
+dst_ip: 10.208.67.228
+src_port: 443
+dst_port: 12970
+packet_number:3
+flow length: 224
+
+Flow:
+src_mac: 74:70:fd:c4:8a:c9
+dst_mac: 00:00:5e:00:01:01
+src_ip:10.208.67.228
+dst_ip: 59.83.218.231
+src_port: 12970
+dst_port: 443
+packet_number:4
+flow length: 216
+
+Flow:
+src_mac: 00:00:5e:00:01:01
+dst_mac: 74:70:fd:c4:8a:c9
+src_ip:59.83.218.231
+dst_ip: 10.208.67.228
+src_port: 443
+dst_port: 12967
+packet_number:3
+flow length: 224
+
+Flow:
+src_mac: 74:70:fd:c4:8a:c9
+dst_mac: 00:00:5e:00:01:01
+src_ip:10.208.67.228
+dst_ip: 59.83.218.231
+src_port: 12967
+dst_port: 443
+packet_number:4
+flow length: 216
+
+Flow:
+src_mac: 00:00:5e:00:01:01
+dst_mac: 74:70:fd:c4:8a:c9
+src_ip:59.83.218.231
+dst_ip: 10.208.67.228
+src_port: 443
+dst_port: 12971
+packet_number:3
+flow length: 224
+
+Flow:
+src_mac: 74:70:fd:c4:8a:c9
+dst_mac: 00:00:5e:00:01:01
+src_ip:10.208.67.228
+dst_ip: 59.83.218.231
+src_port: 12971
+dst_port: 443
+packet_number:4
+flow length: 216
+
+Flow:
+src_mac: 00:00:5e:00:01:01
+dst_mac: 74:70:fd:c4:8a:c9
+src_ip:59.83.218.231
+dst_ip: 10.208.67.228
+src_port: 443
+dst_port: 12958
+packet_number:3
+flow length: 224
+
+Flow:
+src_mac: 74:70:fd:c4:8a:c9
+dst_mac: 00:00:5e:00:01:01
+src_ip:10.208.67.228
+dst_ip: 59.83.218.231
+src_port: 12958
+dst_port: 443
+packet_number:4
+flow length: 216
+
+Flow:
+src_mac: 00:00:5e:00:01:01
+dst_mac: 74:70:fd:c4:8a:c9
+src_ip:59.83.218.231
+dst_ip: 10.208.67.228
+src_port: 443
+dst_port: 12957
+packet_number:3
+flow length: 224
+
+Flow:
+src_mac: 74:70:fd:c4:8a:c9
+dst_mac: 00:00:5e:00:01:01
+src_ip:10.208.67.228
+dst_ip: 59.83.218.231
+src_port: 12957
+dst_port: 443
+packet_number:4
+flow length: 216
+
+Flow:
+src_mac: 00:00:5e:00:01:01
+dst_mac: 74:70:fd:c4:8a:c9
+src_ip:59.83.218.231
+dst_ip: 10.208.67.228
+src_port: 443
+dst_port: 12975
+packet_number:3
+flow length: 224
+
+Flow:
+src_mac: 74:70:fd:c4:8a:c9
+dst_mac: 00:00:5e:00:01:01
+src_ip:10.208.67.228
+dst_ip: 59.83.218.231
+src_port: 12975
+dst_port: 443
+packet_number:4
+flow length: 216
+
+Flow:
+src_mac: 74:70:fd:c4:8a:c9
+dst_mac: 00:00:5e:00:01:01
+src_ip:10.208.67.228
+dst_ip: 118.212.225.122
+src_port: 12982
+dst_port: 443
+packet_number:2
+flow length: 108
+
+Flow:
+src_mac: 74:70:fd:c4:8a:c9
+dst_mac: 00:00:5e:00:01:01
+src_ip:10.208.67.228
+dst_ip: 118.212.225.122
+src_port: 12983
+dst_port: 443
+packet_number:2
+flow length: 108
+
+Flow:
+src_mac: 74:70:fd:c4:8a:c9
+dst_mac: 00:00:5e:00:01:01
+src_ip:10.208.67.228
+dst_ip: 108.177.97.188
+src_port: 7234
+dst_port: 5228
+packet_number:2
+flow length: 110
+
+Flow:
+src_mac: 00:00:5e:00:01:01
+dst_mac: 74:70:fd:c4:8a:c9
+src_ip:108.177.97.188
+dst_ip: 10.208.67.228
+src_port: 5228
+dst_port: 7234
+packet_number:2
+flow length: 132
+
+Flow:
+src_mac: 74:70:fd:c4:8a:c9
+dst_mac: 00:00:5e:00:01:01
+src_ip:10.208.67.228
+dst_ip: 10.80.128.28
+src_port: 54880
+dst_port: 53
+packet_number:2
+flow length: 146
+
+Flow:
+src_mac: 74:70:fd:c4:8a:c9
+dst_mac: 00:00:5e:00:01:01
+src_ip:10.208.67.228
+dst_ip: 10.80.128.28
+src_port: 49664
+dst_port: 53
+packet_number:2
+flow length: 146
+
+Flow:
+src_mac: 00:00:5e:00:01:01
+dst_mac: 74:70:fd:c4:8a:c9
+src_ip:10.80.128.28
+dst_ip: 10.208.67.228
+src_port: 53
+dst_port: 54880
+packet_number:2
+flow length: 178
+
+Flow:
+src_mac: 00:00:5e:00:01:01
+dst_mac: 74:70:fd:c4:8a:c9
+src_ip:10.80.128.28
+dst_ip: 10.208.67.228
+src_port: 53
+dst_port: 49664
+packet_number:2
+flow length: 202
+
+Flow:
+src_mac: 74:70:fd:c4:8a:c9
+dst_mac: 00:00:5e:00:01:01
+src_ip:10.208.67.228
+dst_ip: 148.163.48.215
+src_port: 14907
+dst_port: 443
+packet_number:6
+flow length: 396
+
+Flow:
+src_mac: 00:00:5e:00:01:01
+dst_mac: 74:70:fd:c4:8a:c9
+src_ip:148.163.48.215
+dst_ip: 10.208.67.228
+src_port: 443
+dst_port: 14907
+packet_number:7
+flow length: 378
+
+Flow:
+src_mac: 74:70:fd:c4:8a:c9
+dst_mac: 00:00:5e:00:01:01
+src_ip:10.208.67.228
+dst_ip: 148.163.48.215
+src_port: 14908
+dst_port: 443
+packet_number:6
+flow length: 396
+
+Flow:
+src_mac: 00:00:5e:00:01:01
+dst_mac: 74:70:fd:c4:8a:c9
+src_ip:148.163.48.215
+dst_ip: 10.208.67.228
+src_port: 443
+dst_port: 14908
+packet_number:7
+flow length: 378
+
+Flow:
+src_mac: 00:00:5e:00:01:01
+dst_mac: 74:70:fd:c4:8a:c9
+src_ip:202.89.233.100
+dst_ip: 10.208.67.228
+src_port: 443
+dst_port: 4098
+packet_number:2
+flow length: 108
+
+Flow:
+src_mac: 74:70:fd:c4:8a:c9
+dst_mac: 00:00:5e:00:01:01
+src_ip:2001:da8:1002:a001::6:fb1c
+dst_ip: 2001::453f:bcb0
+src_port: 14909
+dst_port: 443
+packet_number:6
+flow length: 516
+
+Flow:
+src_mac: 74:70:fd:c4:8a:c9
+dst_mac: 00:00:5e:00:01:01
+src_ip:10.208.67.228
+dst_ip: 10.80.128.28
+src_port: 58447
+dst_port: 53
+packet_number:2
+flow length: 156
+
+Flow:
+src_mac: 74:70:fd:c4:8a:c9
+dst_mac: 00:00:5e:00:01:01
+src_ip:10.208.67.228
+dst_ip: 10.80.128.28
+src_port: 53968
+dst_port: 53
+packet_number:2
+flow length: 156
+
+Flow:
+src_mac: 00:00:5e:00:01:01
+dst_mac: 74:70:fd:c4:8a:c9
+src_ip:10.80.128.28
+dst_ip: 10.208.67.228
+src_port: 53
+dst_port: 58447
+packet_number:2
+flow length: 604
+
+Flow:
+src_mac: 00:00:5e:00:01:01
+dst_mac: 74:70:fd:c4:8a:c9
+src_ip:10.80.128.28
+dst_ip: 10.208.67.228
+src_port: 53
+dst_port: 53968
+packet_number:2
+flow length: 270
+
+Flow:
+src_mac: 74:70:fd:c4:8a:c9
+dst_mac: 00:00:5e:00:01:01
+src_ip:10.208.67.228
+dst_ip: 216.58.200.10
+src_port: 53969
+dst_port: 443
+packet_number:6
+flow length: 8352
+
+Flow:
+src_mac: 74:70:fd:c4:8a:c9
+dst_mac: 00:00:5e:00:01:01
+src_ip:2001:da8:1002:a001::6:fb1c
+dst_ip: 2001::453f:bcb0
+src_port: 14910
+dst_port: 443
+packet_number:6
+flow length: 516
+
+Flow:
+src_mac: 74:70:fd:c4:8a:c9
+dst_mac: 00:00:5e:00:01:01
+src_ip:10.208.67.228
+dst_ip: 216.58.200.10
+src_port: 14911
+dst_port: 443
+packet_number:6
+flow length: 396
+
+Flow:
+src_mac: 74:70:fd:c4:8a:c9
+dst_mac: 00:00:5e:00:01:01
+src_ip:10.208.67.228
+dst_ip: 216.58.200.10
+src_port: 14913
+dst_port: 443
+packet_number:6
+flow length: 396
+
+Flow:
+src_mac: 74:70:fd:c4:8a:c9
+dst_mac: 00:00:5e:00:01:01
+src_ip:fe80::4fd:aef4:2fd4:7b71
+dst_ip: fe80::200:5eff:fe00:101
+src_port: 57531
+dst_port: 443
+packet_number:2
+flow length: 172
+
+Flow:
+src_mac: 00:00:5e:00:01:01
+dst_mac: 74:70:fd:c4:8a:c9
+src_ip:fe80::200:5eff:fe00:101
+dst_ip: fe80::4fd:aef4:2fd4:7b71
+src_port: 57531
+dst_port: 443
+packet_number:2
+flow length: 172
+
+Flow:
+src_mac: 74:70:fd:c4:8a:c9
+dst_mac: 00:00:5e:00:01:01
+src_ip:10.208.67.228
+dst_ip: 180.163.150.166
+src_port: 13002
+dst_port: 443
+packet_number:2
+flow length: 110
+
+Flow:
+src_mac: 00:00:5e:00:01:01
+dst_mac: 74:70:fd:c4:8a:c9
+src_ip:180.163.150.166
+dst_ip: 10.208.67.228
+src_port: 443
+dst_port: 13002
+packet_number:2
+flow length: 132
+
+Flow:
+src_mac: 74:70:fd:c4:8a:c9
+dst_mac: 00:00:5e:00:01:01
+src_ip:10.208.67.228
+dst_ip: 180.163.150.166
+src_port: 13003
+dst_port: 443
+packet_number:2
+flow length: 110
+
+Flow:
+src_mac: 00:00:5e:00:01:01
+dst_mac: 74:70:fd:c4:8a:c9
+src_ip:180.163.150.166
+dst_ip: 10.208.67.228
+src_port: 443
+dst_port: 13003
+packet_number:2
+flow length: 132
+
+Flow:
+src_mac: 74:70:fd:c4:8a:c9
+dst_mac: 00:00:5e:00:01:01
+src_ip:10.208.67.228
+dst_ip: 47.99.1.159
+src_port: 12966
+dst_port: 443
+packet_number:2
+flow length: 110
+
+Flow:
+src_mac: 00:00:5e:00:01:01
+dst_mac: 74:70:fd:c4:8a:c9
+src_ip:47.99.1.159
+dst_ip: 10.208.67.228
+src_port: 443
+dst_port: 12966
+packet_number:2
+flow length: 132
+
+Flow:
+src_mac: 74:70:fd:c4:8a:c9
+dst_mac: 00:00:5e:00:01:01
+src_ip:10.208.67.228
+dst_ip: 118.178.109.187
+src_port: 12972
+dst_port: 443
+packet_number:2
+flow length: 110
+
+Flow:
+src_mac: 00:00:5e:00:01:01
+dst_mac: 74:70:fd:c4:8a:c9
+src_ip:118.178.109.187
+dst_ip: 10.208.67.228
+src_port: 443
+dst_port: 12972
+packet_number:2
+flow length: 132
+
+Flow:
+src_mac: 74:70:fd:c4:8a:c9
+dst_mac: 00:00:5e:00:01:01
+src_ip:10.208.67.228
+dst_ip: 116.62.93.118
+src_port: 12973
+dst_port: 443
+packet_number:2
+flow length: 110
+
+Flow:
+src_mac: 00:00:5e:00:01:01
+dst_mac: 74:70:fd:c4:8a:c9
+src_ip:116.62.93.118
+dst_ip: 10.208.67.228
+src_port: 443
+dst_port: 12973
+packet_number:2
+flow length: 132
+
+Flow:
+src_mac: 74:70:fd:c4:8a:c9
+dst_mac: 00:00:5e:00:01:01
+src_ip:10.208.67.228
+dst_ip: 118.178.109.187
+src_port: 12977
+dst_port: 443
+packet_number:2
+flow length: 110
+
+Flow:
+src_mac: 00:00:5e:00:01:01
+dst_mac: 74:70:fd:c4:8a:c9
+src_ip:118.178.109.187
+dst_ip: 10.208.67.228
+src_port: 443
+dst_port: 12977
+packet_number:2
+flow length: 132
+
+Flow:
+src_mac: 74:70:fd:c4:8a:c9
+dst_mac: 00:00:5e:00:01:01
+src_ip:10.208.67.228
+dst_ip: 121.40.43.188
+src_port: 12954
+dst_port: 443
+packet_number:2
+flow length: 110
+
+Flow:
+src_mac: 74:70:fd:c4:8a:c9
+dst_mac: 00:00:5e:00:01:01
+src_ip:10.208.67.228
+dst_ip: 180.163.150.33
+src_port: 12978
+dst_port: 443
+packet_number:2
+flow length: 110
+
+Flow:
+src_mac: 00:00:5e:00:01:01
+dst_mac: 74:70:fd:c4:8a:c9
+src_ip:180.163.150.33
+dst_ip: 10.208.67.228
+src_port: 443
+dst_port: 12978
+packet_number:2
+flow length: 132
+
+Flow:
+src_mac: 00:00:5e:00:01:01
+dst_mac: 74:70:fd:c4:8a:c9
+src_ip:121.40.43.188
+dst_ip: 10.208.67.228
+src_port: 443
+dst_port: 12954
+packet_number:2
+flow length: 132
+
+Flow:
+src_mac: 74:70:fd:c4:8a:c9
+dst_mac: 00:00:5e:00:01:01
+src_ip:10.208.67.228
+dst_ip: 58.254.137.230
+src_port: 12955
+dst_port: 443
+packet_number:2
+flow length: 110
+
+Flow:
+src_mac: 00:00:5e:00:01:01
+dst_mac: 74:70:fd:c4:8a:c9
+src_ip:58.254.137.230
+dst_ip: 10.208.67.228
+src_port: 443
+dst_port: 12955
+packet_number:2
+flow length: 132
+
+Flow:
+src_mac: 74:70:fd:c4:8a:c9
+dst_mac: 00:00:5e:00:01:01
+src_ip:10.208.67.228
+dst_ip: 58.254.149.230
+src_port: 12979
+dst_port: 443
+packet_number:2
+flow length: 110
+
+Flow:
+src_mac: 74:70:fd:c4:8a:c9
+dst_mac: 00:00:5e:00:01:01
+src_ip:10.208.67.228
+dst_ip: 58.254.137.228
+src_port: 12981
+dst_port: 443
+packet_number:2
+flow length: 110
+
+Flow:
+src_mac: 00:00:5e:00:01:01
+dst_mac: 74:70:fd:c4:8a:c9
+src_ip:58.254.149.230
+dst_ip: 10.208.67.228
+src_port: 443
+dst_port: 12979
+packet_number:2
+flow length: 132
+
+Flow:
+src_mac: 74:70:fd:c4:8a:c9
+dst_mac: 00:00:5e:00:01:01
+src_ip:10.208.67.228
+dst_ip: 120.253.255.97
+src_port: 12984
+dst_port: 443
+packet_number:2
+flow length: 110
+
+Flow:
+src_mac: 00:00:5e:00:01:01
+dst_mac: 74:70:fd:c4:8a:c9
+src_ip:58.254.137.228
+dst_ip: 10.208.67.228
+src_port: 443
+dst_port: 12981
+packet_number:2
+flow length: 132
+
+Flow:
+src_mac: 00:00:5e:00:01:01
+dst_mac: 74:70:fd:c4:8a:c9
+src_ip:120.253.255.97
+dst_ip: 10.208.67.228
+src_port: 443
+dst_port: 12984
+packet_number:2
+flow length: 132
+
+Flow:
+src_mac: 74:70:fd:c4:8a:c9
+dst_mac: 00:00:5e:00:01:01
+src_ip:10.208.67.228
+dst_ip: 58.254.149.230
+src_port: 12986
+dst_port: 443
+packet_number:2
+flow length: 110
+
+Flow:
+src_mac: 00:00:5e:00:01:01
+dst_mac: 74:70:fd:c4:8a:c9
+src_ip:58.254.149.230
+dst_ip: 10.208.67.228
+src_port: 443
+dst_port: 12986
+packet_number:2
+flow length: 132
+
+Flow:
+src_mac: 74:70:fd:c4:8a:c9
+dst_mac: 00:00:5e:00:01:01
+src_ip:10.208.67.228
+dst_ip: 10.80.128.28
+src_port: 64595
+dst_port: 53
+packet_number:2
+flow length: 166
+
+Flow:
+src_mac: 00:00:5e:00:01:01
+dst_mac: 74:70:fd:c4:8a:c9
+src_ip:10.80.128.28
+dst_ip: 10.208.67.228
+src_port: 53
+dst_port: 64595
+packet_number:2
+flow length: 444
+
+Flow:
+src_mac: 74:70:fd:c4:8a:c9
+dst_mac: 00:00:5e:00:01:01
+src_ip:10.208.67.228
+dst_ip: 13.107.4.52
+src_port: 14914
+dst_port: 80
+packet_number:6
+flow length: 459
+
+Flow:
+src_mac: 00:00:5e:00:01:01
+dst_mac: 74:70:fd:c4:8a:c9
+src_ip:13.107.4.52
+dst_ip: 10.208.67.228
+src_port: 80
+dst_port: 14914
+packet_number:6
+flow length: 862
+

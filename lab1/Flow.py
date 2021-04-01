@@ -11,6 +11,16 @@ class Flow(object):
     packets = None
 
     def __init__(self, src_ip, dst_ip, src_port, dst_port, trans_layer_proto, packet, timestamp):
+        """
+        初始化
+        :param src_ip:
+        :param dst_ip:
+        :param src_port:
+        :param dst_port:
+        :param trans_layer_proto:
+        :param packet:
+        :param timestamp:
+        """
         self.src_ip = src_ip
         self.dst_ip = dst_ip
         self.src_port = src_port
@@ -26,10 +36,14 @@ class Flow(object):
         self.timestamps.append(timestamp)
 
     def __str__(self):
-        if(self.packets[0].type==dpkt.ethernet.ETH_TYPE_IP6):
+        """
+        自定义输出流信息，其中包括IP地址的转换与mac地址的转换
+        :return:
+        """
+        if(self.packets[0].type==dpkt.ethernet.ETH_TYPE_IP6):    #对ipv6地址转换
             src_ip = socket.inet_ntop(socket.AF_INET6, self.src_ip)
             dst_ip = socket.inet_ntop(socket.AF_INET6, self.dst_ip)
-        else:
+        else:                                                    #对ipv4地址转换
             src_ip = socket.inet_ntop(socket.AF_INET, self.src_ip)
             dst_ip = socket.inet_ntop(socket.AF_INET, self.dst_ip)
         src_port = self.src_port
@@ -38,6 +52,7 @@ class Flow(object):
         for pkt in self.packets:
             flow_length+=len(pkt)
         output = ""
+        # 自定义输出
         output += 'Flow:\n' +\
                   'src_mac: ' + str(self.mac_addr(self.packets[0].src)) + '\n' +\
                   'dst_mac: ' + str(self.mac_addr(self.packets[0].dst)) + '\n' + \

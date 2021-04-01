@@ -11,16 +11,13 @@ from dpkt.compat import compat_ord
 def get_IP_packet(pkt):
     """
     从数据包中读取IP数据包
-    :param pkt:
-    :return:
+    :param pkt:所有数据包
+    :return:ip数据包
     """
     # pkt：全部数据
     eth = dpkt.ethernet.Ethernet(pkt)
     # 确保以太网帧包含一个IP包
-    """
-    此处可输出mac地址，输出需要转化格式 例如：22:53:49:24:ae:9a
-    """
-    if (eth.type == dpkt.ethernet.ETH_TYPE_IP6):  # 对ipv6进行判断
+    if eth.type == dpkt.ethernet.ETH_TYPE_IP6:  # 对ipv6进行判断
         if not isinstance(eth.data, dpkt.ip6.IP6):
             print('Non IP Packet type not supported %s\n' % eth.data.__class__.__name__)
     else:
@@ -37,8 +34,8 @@ def get_IP_packet(pkt):
 def pcap_read(pcap_file):
     """
     对文件中所有数据包进行读取，分类
-    :param pcap_file:
-    :return:
+    :param pcap_file:数据包文件
+    :return:时间邮戳和所有数据包
     """
     pcap = dpkt.pcap.Reader(open(pcap_file, "rb"))
     pkt_list = pcap.readpkts()
@@ -61,10 +58,10 @@ def pcap_read(pcap_file):
 def flow_combine(ip_pkt_list, ip_tms_list, flow_definition):
     """
     组流
-    :param ip_pkt_list:
-    :param ip_tms_list:
-    :param flow_definition:
-    :return:
+    :param ip_pkt_list:ip数据包
+    :param ip_tms_list:时间邮戳包
+    :param flow_definition:单双流标识
+    :return:组流后的流
     """
     flow_list = []
     src_port = None
@@ -121,9 +118,7 @@ def flow_combine(ip_pkt_list, ip_tms_list, flow_definition):
 def print_flow(flow_list, f):
     """
     输出流总数与流信息到文件中
-    :param flow_list:
-    :param f:
-    :return:
+    :param flow_list:组流后的流
     """
     print('Number of flows: ' + str(len(flow_list)), file=f)
     for flowUnit in flow_list:

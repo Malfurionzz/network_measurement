@@ -15,13 +15,13 @@ class Flow(object):
     def __init__(self, src_ip, dst_ip, src_port, dst_port, trans_layer_proto, packet, timestamp):
         """
         初始化
-        :param src_ip:
-        :param dst_ip:
-        :param src_port:
-        :param dst_port:
-        :param trans_layer_proto:
-        :param packet:
-        :param timestamp:
+        :param src_ip:源ip
+        :param dst_ip:目的ip
+        :param src_port:源端口
+        :param dst_port:目的端口
+        :param trans_layer_proto:传输层协议，TCP或UDP
+        :param packet:数据包
+        :param timestamp:时间邮戳
         """
         self.src_ip = src_ip
         self.dst_ip = dst_ip
@@ -40,7 +40,7 @@ class Flow(object):
     def __str__(self):
         """
         自定义输出流信息，其中包括IP地址的转换与mac地址的转换
-        :return:
+        :return:自定义输出
         """
         if self.packets[0].type == dpkt.ethernet.ETH_TYPE_IP6:  # 对ipv6地址转换
             src_ip = socket.inet_ntop(socket.AF_INET6, self.src_ip)

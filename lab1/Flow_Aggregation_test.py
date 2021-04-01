@@ -20,7 +20,7 @@ def get_IP_packet(pkt):
     """
     此处可输出mac地址，输出需要转化格式 例如：22:53:49:24:ae:9a
     """
-    if (eth.type == dpkt.ethernet.ETH_TYPE_IP6):    #对ipv6进行判断
+    if (eth.type == dpkt.ethernet.ETH_TYPE_IP6):  # 对ipv6进行判断
         if not isinstance(eth.data, dpkt.ip6.IP6):
             print('Non IP Packet type not supported %s\n' % eth.data.__class__.__name__)
     else:
@@ -48,8 +48,6 @@ def pcap_read(pcap_file):
         try:
 
             ip_packet = get_IP_packet(pkt)
-            # print("该Pcap数据包IP层数据包长度：", ip_packet.len) #uxiao
-            # print("该Pcap数据包存活时间：", ip_packet.ttl)  #quxiao
             trans_packet = ip_packet.data  # 传输层的数据
             data = trans_packet.data  # 应用层数据
             pkt_result.append(pkt)
@@ -101,8 +99,6 @@ def flow_combine(ip_pkt_list, ip_tms_list, flow_definition):
                         flow_is_exist = True
                         flow_unit.append_packet(eth, tms)
                         break
-
-
             elif flow_definition == 2:  # 双向流
                 for flow_unit in flow_list:
                     if ((
@@ -111,7 +107,7 @@ def flow_combine(ip_pkt_list, ip_tms_list, flow_definition):
                         flow_is_exist = True
                         flow_unit.append_packet(eth, tms)
                         break
-            if flow_is_exist == False:
+            if not flow_is_exist:
                 """
                 插入新流
                 """
@@ -179,7 +175,7 @@ if __name__ == "__main__":
     config = configparser.ConfigParser()  # 创建一个对象，使用对象的方法对指定的配置文件做增删改查操作。
     config.read('./edconfig.ini', encoding='utf-8')
     pcap_name_list = config.options('source')
-    #双向流在uni_log文件夹中查找，单向流在bi_log文件夹中查找
+    # 双向流在uni_log文件夹中查找，单向流在bi_log文件夹中查找
     if mod == 1:
         folder = 'uni_log'
     else:

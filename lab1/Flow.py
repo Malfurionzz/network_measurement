@@ -1,6 +1,8 @@
 import socket
 import dpkt
 from dpkt.compat import compat_ord
+
+
 class Flow(object):
     src_ip = None
     dst_ip = None
@@ -40,21 +42,21 @@ class Flow(object):
         自定义输出流信息，其中包括IP地址的转换与mac地址的转换
         :return:
         """
-        if(self.packets[0].type==dpkt.ethernet.ETH_TYPE_IP6):    #对ipv6地址转换
+        if self.packets[0].type == dpkt.ethernet.ETH_TYPE_IP6:  # 对ipv6地址转换
             src_ip = socket.inet_ntop(socket.AF_INET6, self.src_ip)
             dst_ip = socket.inet_ntop(socket.AF_INET6, self.dst_ip)
-        else:                                                    #对ipv4地址转换
+        else:  # 对ipv4地址转换
             src_ip = socket.inet_ntop(socket.AF_INET, self.src_ip)
             dst_ip = socket.inet_ntop(socket.AF_INET, self.dst_ip)
         src_port = self.src_port
         dst_port = self.dst_port
         flow_length = 0
         for pkt in self.packets:
-            flow_length+=len(pkt)
+            flow_length += len(pkt)
         output = ""
         # 自定义输出
-        output += 'Flow:\n' +\
-                  'src_mac: ' + str(self.mac_addr(self.packets[0].src)) + '\n' +\
+        output += 'Flow:\n' + \
+                  'src_mac: ' + str(self.mac_addr(self.packets[0].src)) + '\n' + \
                   'dst_mac: ' + str(self.mac_addr(self.packets[0].dst)) + '\n' + \
                   'src_ip:' + str(src_ip) + '\n' + \
                   'dst_ip: ' + str(dst_ip) + '\n' + \
@@ -63,7 +65,6 @@ class Flow(object):
                   'packet_number:' + str(len(self.packets)) + '\n' + \
                   'flow length: ' + str(flow_length) + '\n'
         return output
-
 
     @staticmethod
     def mac_addr(address):
